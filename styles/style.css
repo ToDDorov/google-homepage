@@ -1,0 +1,118 @@
+body {
+    font-family: arial, sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+div {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    padding-right: 30px;
+    padding-top: 16px;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    padding-top: 8px;
+    padding-right: 15px;
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.apps_link {
+    padding-top: 0px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position-x: -132px;
+    background-position-y: -38px;
+    opacity: .55;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    color: #000;
+}
+
+.account_link {
+    padding: 0px;
+    background-image: url('https://lh3.googleusercontent.com/-jpCtudiA9pc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcrt_6o0UPmbdKH1a2BNu-deWb_iA.CMID/s64-c/photo.jpg');
+    margin: -1px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: 32px 32px;
+}
+
+.logo {
+    padding-top: 198px;
+    text-align: center;
+}
+
+.search_form {
+    width: 482px;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-right: 100px;
+    height: 46px;
+    display: flex;
+}
+
+.form_input {
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search_icon {
+    color: #9aa0a6;
+    fill: currentColor;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    margin-left: 14px;
+}
+
+.search_input {
+    border: none;
+    margin: 0;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    width: 470px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.87);
+    outline: none;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.voice_search {
+    padding-top: 12px;
+    display: flex;
+    cursor: pointer;
+}
+
+.mic_icon {
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+    display: flex;
+    width: 24px;
+    padding-right: 15px;
+}
