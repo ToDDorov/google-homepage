@@ -1,10 +1,18 @@
-Basic HTML/CSS exercise. At the end of the project, i need to know how: 
+# google-homepage
 
-1.Two ways to move a div around on the page
-2.Stick a div onto the bottom or top of the page
-3.Identify the background color of an existing webpage
-4.Grab the URL for an image from an existing webpage
-5.Center an element horizontally
-6.Identify three ways you can include your CSS styles in a page
-7.Understand how to use classes and ids to target CSS at specific elements on the page
-8.Build a very basic form (even if it doesn’t “go” anywhere)
+## Assignment
+
+Easy Version: Build the [Google.com](https://google.com) homepage.
+
+## Project source
+
+From The Odin Project`s [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav).
+
+#### HTML5
+* Familiarize with the HTML document layout
+* Create a nav bar using unordered lists and links
+* Implement use of *div*, a block-level element, combined with *class* atrribute as containers for grouping content
+#### CSS3
+* Familiarize with the CSS syntax
+* Use *Type* , *Class* , *psuedo-class*, selectors
+* Use common CSS properties such as *padding*, *margin* to layout main elements
